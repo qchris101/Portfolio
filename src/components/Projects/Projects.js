@@ -5,7 +5,7 @@ import Particle from "../Particle";
 import leaf from "../../Assets/Projects/leaf.png";
 import emotion from "../../Assets/Projects/emotion.jpeg";
 import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
+import OurSpace from "../../Assets/Projects/OurSpace.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 
@@ -23,15 +23,15 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={OurSpace}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              link="https://github.com/soumyajit4419/Chatify"
+              title="OurSpace"
+              description="Social Network Application to hangout with friends built with react.js, Express, and Mongoose. Have features which allows user for realtime posting, as well as supports reactions on user posts.Collaborated with a team of four software developers in a 3-week sprint. "
+              link="https://github.com/Team-Rendering/project-frontend"
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
@@ -69,9 +69,9 @@ function Projects() {
               description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
               link="https://github.com/soumyajit4419/AI_For_Social_Good"
             />
-          </Col>
+          </Col> */}
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={emotion}
               isBlog={false}
@@ -80,7 +80,7 @@ function Projects() {
               Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
               link="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
             />
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </Container>
