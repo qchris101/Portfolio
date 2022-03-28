@@ -38,7 +38,8 @@ function Projects() {
               imgPath={DBDPerkCreator}
               isBlog={false}
               title="DBD Perk Creator"
-              description=""
+              description="Based on the hit 4v1 horror game Dead by Daylight a Web Application to built with CRUD functionally to create perks! Utilized JavaScript, HTML, and CSS
+              for the Frontend.While the backend was built using Express, and MongoDb."
               link="https://github.com/qchris101/dbd-perk-client"
             />
           </Col>
@@ -48,7 +49,7 @@ function Projects() {
               imgPath={TicTacToe}
               isBlog={false}
               title="Tic-Tac-Toe"
-              description=""
+              description="The classic Tic-Tac-Toe game but now as a Web Application! Created with vanilla JavaScript, HTML, and CSS."
               link="https://github.com/qchris101/tic-tac-toe-client"
             />
           </Col>
@@ -58,7 +59,7 @@ function Projects() {
               imgPath={DiscordBot}
               isBlog={false}
               title="Discord Bot"
-              description=""
+              description="A Discord Bot that utilizes Discords API and zenquotes.io for GET Requests to boost discord server morale whenever called upon! Created fully in python."
               link="https://github.com/qchris101/encourage-discord-bot"
             />
           </Col>
@@ -68,7 +69,8 @@ function Projects() {
               imgPath={OnePiece}
               isBlog={false}
               title="One Piece Pirate Crew"
-              description=""
+              description="Web Application inspired by the Japanese manga series One Piece, centered around creating your own Pirate Crew.Created a Django API to fetch calls 
+              to a React Frontend centered around making a quick and snappy UI experience."
               link="https://github.com/qchris101/project-pirate-crew-client"
             />
           </Col>

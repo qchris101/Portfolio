@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import { ImPointRight } from "react-icons/im";
+import { ImPointRight,ImMail4 } from "react-icons/im";
 
 function AboutCard() {
   return (
@@ -10,7 +10,10 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Christian Quintana </span>
             from <span className="purple"> Linden,NJ!</span>
+            <span>I completed my <span className="purple">Associates of Science</span> at Union County College and then pursued to further my Cs knowledge at General Assembly!</span>
             <br />
+            <br />
+            <span>Feel free to connect with me! <ImMail4 /> qchris101@yahoo.com <ImMail4/></span>
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
@@ -25,12 +28,15 @@ function AboutCard() {
             <li className="about-activity">
               <ImPointRight /> Working Out
             </li>
+            <li className="about-activity">
+              <ImPointRight /> Reading
+            </li>
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "add quote"{" "}
+            "Anything's possible if you've got enough nerve."{" "}
           </p>
-          <footer className="blockquote-footer">Christian</footer>
+          <footer className="blockquote-footer">Ginny Weasley, Harry Potter and the Half-Blood Prince.</footer>
         </blockquote>
       </Card.Body>
     </Card>
