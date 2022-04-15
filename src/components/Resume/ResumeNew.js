@@ -4,7 +4,7 @@ import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
 import Resume from "../../Assets/Projects/Resume(1).png"
 import Resume2 from "../../Assets/Projects/Resume(2).png"
-import pdf from "../../Assets/../Assets/Christian_Quintana(March2022).pdf";
+import pdf from "../../Assets/../Assets/Christian_Quintana(April2022).pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";

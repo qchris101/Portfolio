@@ -34,9 +34,8 @@ function AboutCard() {
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Anything's possible if you've got enough nerve."{" "}
+          {" "}
           </p>
-          <footer className="blockquote-footer">Ginny Weasley, Harry Potter and the Half-Blood Prince.</footer>
         </blockquote>
       </Card.Body>
     </Card>
