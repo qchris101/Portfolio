@@ -1,17 +1,20 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
 # Portfolio
+ 
+A personal portfolio website showcasing my projects, background, and resume.
+ 
+**Live site:** [your-site-url.com](https://your-site-url.com)
+ 
+## Pages
+ 
+- **Home:** introduction and highlights
+- **About:** background and interests
+- **Projects:** selected work with links and descriptions
+- **Resume:** experience, education, and skills
+## Tech Stack
+ 
+- [React 19](https://react.dev/) with [React Router](https://reactrouter.com/) for client-side routing
+- [Vite](https://vite.dev/) for development and builds
+- [Tailwind CSS 4](https://tailwindcss.com/) for styling
+- [shadcn/ui](https://ui.shadcn.com/) components built on [Base UI](https://base-ui.com/)
+- [Lucide](https://lucide.dev/) for icons
+- [Oxlint](https://oxc.rs/docs/guide/usage/linter) for linting
