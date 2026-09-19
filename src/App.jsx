@@ -1,4 +1,4 @@
-import {BrowserRouter, Routes, Route} from 'react-router-dom' 
+import {BrowserRouter, Routes, Route} from 'react-router' 
 import './App.css'
 import { ArrowUpIcon } from "lucide-react"
 import Navbar from './components/navbar/Navbar'

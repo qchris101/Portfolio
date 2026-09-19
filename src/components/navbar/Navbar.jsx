@@ -8,7 +8,7 @@ import {
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu"
 
-import { NavLink } from "react-router-dom"
+import { NavLink } from "react-router"
 
 const links = [
     { to: "/", label: "Home"},
