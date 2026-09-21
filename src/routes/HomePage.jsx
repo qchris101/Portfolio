@@ -3,11 +3,16 @@ import Social from "../components/socials/Social";
 export default function HomePage() {
   return (
     <>
-    <Social />
-    <div className="flex flex-col items-center justify-center min-h-screen py-2">
-      <h1 className="text-4xl font-bold mb-4">Home Page</h1>
-      <p className="text-lg text-gray-600">Welcome to the portfolio home page.</p>
-    </div>
+      <div className="flex flex-col justify-center items-center mt-6 bg-black text-white">
+        <section>
+          <h1 className="text-3xl">Christian Quintana</h1>
+          <span className="text-sm">React Focused Engineer</span>
+        </section>
+        <section className="mt-6">
+          Junior React focused engineer, with a deep motivation to build React 
+          web applications.
+        </section>
+      </div>
     </>
   )
 }
