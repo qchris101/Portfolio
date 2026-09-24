@@ -8,7 +8,8 @@ import HomePage from './routes/HomePage'
 import ProjectsPage from './routes/ProjectsPage'
 import ResumePage from './routes/ResumePage'
 import AboutPage from './routes/AboutPage'
-
+import ClientShowcasePage from './routes/clientShowcasePage'
+import ContactPage from './routes/ContactPage'
 function App() {
 
 
@@ -19,12 +20,13 @@ function App() {
       
       </section> 
         <main className="flex-1 min-h-screen bg-black">
-    <Social/>
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/about" element={<AboutPage />} />
             <Route path="/projects" element={<ProjectsPage />} />
             <Route path="/resume" element={<ResumePage />} />
+            <Route path="/contact" element={<ContactPage />} />
+            <Route path="/projects/client-showcase" element={<ClientShowcasePage />} />
           </Routes>
         </main>
 

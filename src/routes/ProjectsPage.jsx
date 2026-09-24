@@ -1,4 +1,4 @@
-
+import { Link } from "react-router"
 
 export default function ProjectsPage() {
   return (
@@ -7,10 +7,14 @@ export default function ProjectsPage() {
 
       <h1 className="text-4xl font-bold text-white mb-4">Projects Page</h1>
       <p className="text-lg text-gray-600">This is the Projects page of the portfolio.</p>
-    </div>
-    <section className="card outline-3 max-w-md">
+    <section className="bg-white p-2 rounded mt-2">
+
+    <Link to="/projects/client-showcase" className="btn btn-outline max-w-md">
+          Client Showcase.
+    </Link>
       
     </section>
+    </div>
     </>
     
   )

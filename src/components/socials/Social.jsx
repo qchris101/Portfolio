@@ -8,19 +8,23 @@ export default function Social(){
     const navigate = useNavigate()
     return(
         <div>
-            <ul>
+            <ul className="flex  space-x-2 gap-2">
                 <li>
-                    <Button variant= "outline">
+                    <Button variant= "outline" className="p-4">
                         <a href="https://github.com/qchris101/" target="_blank">
                         {<img className="w-6 h-6" src={githubLogo}/>}
                         </a>
                     </Button>
-                    <Button variant= "outline">
+                </li>
+                <li>
+                    <Button variant= "outline" className="p-4">
                         <a href="https://www.goodreads.com/user/show/186102119-christian-quintana" target="_blank">
                         {<img className="w-6 h-6" src={goodreadsLogo}/>}
                         </a>
                     </Button>
-                    <Button variant= "outline">
+                </li>
+                <li>    
+                    <Button variant= "outline" className="p-4">
                         <a href="https://www.linkedin.com/in/christian-quintana-/" target="_blank">
                         {<img className="w-6 h-6" src={linkedInLogo}/>}
                         </a>
