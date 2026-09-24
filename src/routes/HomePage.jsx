@@ -14,6 +14,7 @@ export default function HomePage() {
           web applications.
       </p>
       <Link to="/projects" className="btn outline-3 p-2 rounded">
+      
       <button className="btn btn-primary">Check Out some of my Work!</button>
       </Link>
     </div>
