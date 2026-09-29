@@ -25,7 +25,7 @@ export default function Navbar() {
                 {links.map(({ to, label }) => (
                     <NavigationMenuItem key={to}>
                         <NavigationMenuLink
-                            classname={navigationMenuTriggerStyle()}
+                            className={navigationMenuTriggerStyle()}
                             render={<NavLink to={to} end={to === "/"} />}
                             >
                             {label}

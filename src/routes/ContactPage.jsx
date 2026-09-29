@@ -1,3 +1,4 @@
+import ContactForm from "../components/ContactForm";
 import Social from "../components/socials/Social";
 
 export default function ContactPage() {
@@ -9,9 +10,9 @@ export default function ContactPage() {
   <div className="hero-content text-center">
     <div className="max-w-md">
       <h1 className="text-5xl font-bold">Lets Connect!</h1>
-      <p className="py-6">
-       email.js contact page
-      </p>
+      
+       <ContactForm />
+      
     </div>
   </div>
 </div>
