@@ -1,32 +1,16 @@
 import { Route, useNavigate } from "react-router"
 import { Button } from "../ui/button"
-import githubLogo from "../../assets/github-logo.png"
-import goodreadsLogo from "../../assets/goodreads.svg"
-import linkedInLogo from "../../assets/linkedin.png"
 
-export default function Social(){
+
+export default function Social( {url, img} ) {
     const navigate = useNavigate()
     return(
         <div>
             <ul className="flex  space-x-2 gap-2">
                 <li>
                     <Button variant= "outline" className="p-4">
-                        <a href="https://github.com/qchris101/" target="_blank">
-                        {<img className="w-6 h-6" src={githubLogo}/>}
-                        </a>
-                    </Button>
-                </li>
-                <li>
-                    <Button variant= "outline" className="p-4">
-                        <a href="https://www.goodreads.com/user/show/186102119-christian-quintana" target="_blank">
-                        {<img className="w-6 h-6" src={goodreadsLogo}/>}
-                        </a>
-                    </Button>
-                </li>
-                <li>    
-                    <Button variant= "outline" className="p-4">
-                        <a href="https://www.linkedin.com/in/christian-quintana-/" target="_blank">
-                        {<img className="w-6 h-6" src={linkedInLogo}/>}
+                        <a href={url} target="_blank">
+                            <img className="w-6 h-6" src={img} alt="Social Link" />
                         </a>
                     </Button>
                 </li>

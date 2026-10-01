@@ -1,5 +1,6 @@
 import ContactForm from "../components/ContactForm";
 import Social from "../components/socials/Social";
+import { socialLinks } from "../data.js"
 
 export default function ContactPage() {
     return(
@@ -17,7 +18,7 @@ export default function ContactPage() {
   </div>
 </div>
 <div className="mt-6">
-  <Social />
+  <Social {...socialLinks[0]} />
 
 </div>
     </div>
